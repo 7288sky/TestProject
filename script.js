@@ -30,3 +30,13 @@ function loginUser() {
         alert("Invalid Username or Password ❌");
     }
 }
+
+// Simple Logout Script
+
+function logoutUser() {
+    alert("User Logged Out Successfully 👋");
+
+    // Clear input fields
+    document.getElementById("username").value = "";
+    document.getElementById("password").value = "";
+}
