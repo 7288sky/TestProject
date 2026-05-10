@@ -40,3 +40,7 @@ function logoutUser() {
     document.getElementById("username").value = "";
     document.getElementById("password").value = "";
 }
+
+function featureD(){
+    console.log("Added a new feature D")
+}
