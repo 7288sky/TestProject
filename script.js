@@ -40,3 +40,25 @@ function logoutUser() {
     document.getElementById("username").value = "";
     document.getElementById("password").value = "";
 }
+
+// Add Comment Script
+
+function addComment() {
+    const commentInput = document.getElementById("commentInput");
+    const commentText = commentInput.value;
+
+    if (commentText.trim() === "") {
+        alert("Please write a comment!");
+        return;
+    }
+
+    // Create new comment element
+    const comment = document.createElement("p");
+    comment.textContent = "💬 " + commentText;
+
+    // Add comment to comment section
+    document.getElementById("commentSection").appendChild(comment);
+
+    // Clear input field
+    commentInput.value = "";
+}
