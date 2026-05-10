@@ -9,3 +9,7 @@ function featureA(){
 function featureB(){
     console.log("Adding new feature B")
 }
+
+function featureC(){
+    console.log("Added a new featureC");
+}
