@@ -21,3 +21,11 @@ button {
 button:hover {
     background-color: #005fa3;
 }
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+h1 {
+    color: blue;
+}
