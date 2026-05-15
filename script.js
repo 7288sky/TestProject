@@ -46,3 +46,7 @@ function logoutUser() {
 function featureD(){
     console.log("Added a new feature D")
 }
+
+function featureE(){
+    console.log("Added a new feature E")
+}
