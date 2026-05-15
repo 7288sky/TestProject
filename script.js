@@ -13,7 +13,9 @@ function featureB(){
 function featureC(){
     console.log("Added a new featureC");
 }
-
+function featureD(){
+    console.log("Added a new featureC");
+}
 // Simple Login Validation Script
 
 function loginUser() {
